@@ -9,6 +9,10 @@ h1 {
    
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -44,3 +48,30 @@ h1 {
     transform: rotate(30deg);
     width: 60%;
 }
+
+.circle,
+.bullseye,
+.heart {
+    
+    font-size: 500%;
+    margin-top: 10px;
+    color: orange;
+}
+
+.circle:hover {
+    color: red;
+}
+
+.bullseye:hover {
+    color: red;
+}
+
+.heart:hover {
+    color: red;
+}
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+}
+
